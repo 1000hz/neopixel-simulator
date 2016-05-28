@@ -1,5 +1,5 @@
 # NeoPixel LED Simulator
-### Demo: https://1000hz.github.io/neopixel
+### Demo: https://1000hz.github.io/neopixel-simulator
 
 Here's a little simulator to help sketch out LED animation functions for one of these things:
 https://www.adafruit.com/products/2875
