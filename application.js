@@ -29,7 +29,7 @@ const neopixel  = new NeoPixelRing60((pixels, t) => {
     const r = inRange(rotate(i, -rOffset, length), 0, rLength) ? 255 : 0
     const g = inRange(rotate(i, -gOffset, length), 0, gLength) ? 255 : 0
     const b = inRange(rotate(i, -bOffset, length), 0, bLength) ? 255 : 0
-    const w = Math.sin((t + i) * Math.PI / 180)
+    const w = Math.sin((t * i) * Math.PI / 180) * 255
 
     return new Pixel(r, g, b, w)
   })

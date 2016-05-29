@@ -6,7 +6,7 @@ https://www.adafruit.com/products/2875
 
 
 ## Usage
-The library includes some LED Modules (currently only `NeoPixelRing60`). These accept a callback to run on each render tick. The callback is passed an array of blank `Pixel(r,g,b,a)` instances, and the current tick. It must return an array of `Pixel`s to be rendered.
+The library includes some LED Modules (currently only `NeoPixelRing60`). These accept a callback to run on each render tick. The callback is passed an array of blank `Pixel(r,g,b,w)` instances, and the current tick. It must return an array of `Pixel`s to be rendered.
 
 You'll also need to instantiate a `Simulator` class. `Simulator` constructors take LED Modules as arguments. After you've instantiated your `Simulator`, call `simulator.start()` to begin the light show.
 
